@@ -10,13 +10,17 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
+    "build": "gatsby build --prefix-paths",
+    "serve": "gatsby serve --prefix-paths",
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@reach/accordion": "^0.15.3",
     "gatsby": "^3.10.2",
     "gatsby-plugin-gatsby-cloud": "^2.10.1",
+    "glob": "^7.1.7",
+    "globby": "^11.0.4",
+    "moment": "^2.29.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
